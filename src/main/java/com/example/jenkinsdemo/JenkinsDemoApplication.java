@@ -17,6 +17,7 @@ public class JenkinsDemoApplication {
 	@PostConstruct
 	public void init() {
 		log.info("application started");
+		System.out.println("hello jenkins");
 }
 
 	public static void main(String[] args) {
